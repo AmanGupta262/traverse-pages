@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    flex-direction: column;
+}
+.container > *{
+    flex: 1 1 100%;
+}
+.form{
+    padding: 3rem;
+    background: linear-gradient(to right, #F1FFFE, #FEFAF0);
+}
+input{
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+.btn{
+    padding: 0.5rem;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.result{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+img{
+    min-height: 200px;
+    max-height: 300px;
+    max-width: 100%;
+    margin: 2rem;
+}
+.pagination{
+    background-color: gray;
+    padding: 1.5rem;
+}
